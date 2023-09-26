@@ -10,7 +10,7 @@ conexion2 = mysql.connector.connect(
 )
 cursor = conexion2.cursor()
 
-query = ("SELECT * FROM `scanner`.`tickets` WHERE id=1")
+query = ("SELECT * FROM `scanner`.`tickets` WHERE id=4")
 cursor.execute(query)
 resultados = cursor.fetchall()
 # print(resultados[0][3])
